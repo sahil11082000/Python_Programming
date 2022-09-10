@@ -1,4 +1,3 @@
-
 # Program to Implement Binary Search Algorithm in python:
 # Time complexity : O(log(n))
 # Space Complexity : O(n)
@@ -26,8 +25,11 @@ class Solution:
 
 if __name__ == '__main__':
     oS = Solution()
-    arr = [1,2,4,5,6]
+    arr = [1, 6, 8, 9 ,2 ,4]
     arr = sorted(arr, reverse=False)
     print(oS.BinarySearch(arr, 6))
     print(oS.BinarySearch(arr, 2))
     print(oS.BinarySearch(arr, 10))
+
+
+# Sahil Tomar
